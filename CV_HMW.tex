@@ -1,0 +1,182 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,roman]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{red}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75, margin=0.8in]{geometry}
+\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+
+% personal data
+\name{Mengwen}{He}
+\title{Research Student/Assistant}                               % optional, remove / comment the line if not wanted
+\address{609 National Innovation Complex (NIC) Building}{Nagoya University, Furo-cho, Chikusa-ku}{Nagoya 464-8601, Japan}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+%\phone[mobile]{+86-134-8869-5548}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+81-052-789-4841}                    % optional, remove / comment the line if not wanted
+\phone[fax]{+81-052-788-6004}                      % optional, remove / comment the line if not wanted
+\email{alexanderhmw@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{http://www.coi.nagoya-u.ac.jp}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file stored
+\quote{"possunt quia posse videntur" - Virgil}                                 % optional, remove / comment the line if not wanted
+
+\begin{document}
+
+\makecvtitle
+
+\section{\textbf{Research Topics}}
+\cvitem{2014--Present}{{Vechile details detection and tracking using integrated data for safe prediction.}\newline}
+\cvitem{2011--2014}{{Calibration of multi-sensor system. Robot software development framework.}\newline}
+\cvitem{2009--2011}{{Scene understanding. Interactive extraction of street contents.}\newline}
+
+\section{\textbf{Education}}
+\cventry{2014.10--Present}{Research Student}{Graduate School of Information Science, Nagoya University}{Japan}{}{Supervisor: Assoc. Prof. Shinpei Kato\newline}
+\cventry{2014.10--Present}{Research Assistant}{Institute of Innovation for Future Society, Nagoya University}{Japan}{}{Supervisor: Prof. Yoshiki Ninomiya\newline}
+\cventry{2011.09--2014.07}{M.S.}{State Key Laboratory of Machine Intelligence, Peking University}{China}{}{Supervisor: Prof. Huijing Zhao\newline}
+\cventry{2012.12}{Visiting Student}{HEUDIASYC, Université de Technologie de Compiègne}{France}{}{Introducer: Researcher Franck Davoine\newline}
+\cventry{2007.09--2011.07}{B.S.}{Electronics Engineering and Computer Science, Peking University}{China}{}{Department: Computer and Information Science\newline}
+\cventry{2008.09--2011.07}{B.Ec}{National School of Development, Peking University}{China}{}{Note: Double Major\newline}
+\cventry{2004.09--2007.07}{Senior High School}{No.1 Senior High School of Henan Oil Field}{China}{}{Note: General science education \& Biology in higher education level\newline}
+
+\section{\textbf{Theses}}
+\cvitem{Degree}{Master, 2014.07}
+\cvitem{Title}{\textbf{Calibration Method for Multi-LiDAR System Based on Multi-Type Geometry Features Alignment in 3D Point-Cloud}}
+\cvitem{Supervisor}{Prof. Huijing Zhao\newline}
+
+\cvitem{Degree}{Bachelor, 2011.07}
+\cvitem{Title}{\textbf{Interactive Extraction of Street Contents Using Vehicle-borne Data}}
+\cvitem{Supervisor}{Prof. Huijing Zhao\newline}
+
+\section{\textbf{Publications}}
+\cvitem{Title}{\textbf{Accurate and Robust Model-Based Vehicle Tracking Method Using Rao-Blackwellized and Scaling Series Particle Filters}}
+\cvitem{Authors}{\textbf{Mengwen He}, Eijiro Takeuchi, Yoshiki Ninomiya, Shinpei Kato}
+\cvitem{Publisher}{\emph{IEEE Int. Conf. on Robotics and Automation (ICRA), 2016, [Submitted]}}
+\cvitem{URL}{\url{https://github.com/alexanderhmw/Papers/blob/master/ICRA16_1070_MS.pdf}}
+\cvitem{Video}{\url{https://github.com/alexanderhmw/Papers/blob/master/ICRA16_1070_VI_i.mp4}\newline}
+
+\cvitem{Title}{\textbf{A Robust Real-time 2D Virtual Scan Generation Method for Obstacle Detection in Complex Urban Environment}}
+\cvitem{Authors}{\textbf{Mengwen He}, Eijiro Takeuchi, Yoshiki Ninomiya, Shinpei Kato}
+\cvitem{Publisher}{\emph{IEEE Int. Conf. on Robotics and Automation (ICRA), 2016, [Submitted]}}
+\cvitem{URL}{\url{https://github.com/alexanderhmw/Papers/blob/master/ICRA16_1084_MS.pdf}}
+\cvitem{Video}{\url{https://github.com/alexanderhmw/Papers/blob/master/ICRA16_1084_VI_i.mp4}\newline}
+
+\cvitem{Title}{\textbf{Calibration Method for Multiple 2D LiDARs System}}
+\cvitem{Authors}{\textbf{Mengwen He}, Huijing Zhao, Jinshi Cui, Hongbin Zha}
+\cvitem{Publisher}{\emph{IEEE Int. Conf. on Robotics and Automation (ICRA), 2014}}
+\cvitem{URL}{\url{https://github.com/alexanderhmw/Papers/blob/master/ICRA14_0901.pdf}\newline}
+
+\cvitem{Title}{\textbf{Pairwise LiDAR Calibration Using Multi-Type 3D Geometric Features in Natural Scene}}
+\cvitem{Authors}{\textbf{Mengwen He}, Huijing Zhao, Franck Davoine, Jinshi Cui, Hongbin Zha}
+\cvitem{Publisher}{\emph{IEEE Int. Conf. on Robots and Systems (IROS), 2013}}
+\cvitem{URL}{\url{https://github.com/alexanderhmw/Papers/blob/master/IROS13_1457.pdf}\newline}
+
+\cvitem{Title}{\textbf{Computing Object-based Saliency in Urban Scenes Using Laser Sensing}}
+\cvitem{Authors}{Yipu Zhao, \textbf{Mengwen He}, Huijing Zhao, Franck Davoine, Hongbin Zha}
+\cvitem{Publisher}{\emph{IEEE Int. Conf. on Robotics and Automation (ICRA), 2012}}
+\cvitem{URL}{\url{https://github.com/alexanderhmw/Papers/blob/master/ICRA12_1028.pdf}\newline}
+
+\cvitem{Title}{\textbf{Range Image Segmentation and Classification in Large Urban Environment}}
+\cvitem{Authors}{Yiming Liu, \textbf{Mengwen He}, Huijing Zhao, Hongbin Zha}
+\cvitem{Publisher}{\emph{Joint Workshop on Machine Perception and Robotics (MPR), 2010}\newline}
+
+\section{\textbf{Projects}}
+\cvitem{2015.06}{\textbf{DPM Training Samples Collection and Annotation Software Development}}
+\cvitem{Work}{Use RobotSDK for fast top-down modular development}
+\cvitem{GitHub}{\url{https://github.com/RobotSDK/RobotSDK/tree/RobotSDK_4.0/Src/Samples/Projects/HMW_Project/DPMSampleAnnotator}\newline}
+
+\cvitem{2015.05}{\textbf{Challenge for Tsukuba Challenge 2015 in Nagoya University}}
+\cvitem{Work}{Use RobotSDK to develop navigation, obstacle detection, planning and control}
+\cvitem{Note}{2 of 8 teams finished the challenge and we are the fastest winner}
+\cvitem{Website}{\url{http://www.suzlab.nuem.nagoya-u.ac.jp/~tazaki/tsuchacha/}\newline}
+
+\cvitem{2015.04--2015.05}{\textbf{RobotSDK 4.0 Upgrade}}
+\cvitem{Work}{Kernel Update}
+\cvitem{GitHub}{\url{https://github.com/RobotSDK}\newline}
+
+\cvitem{2014.11--2014.12}{\textbf{ROS-nized CalibrationToolkit for Autonomous Vehicle in Autoware}}
+\cvitem{Work}{Software design and development\newline}
+
+\cvitem{2014.07--2014.11}{\textbf{Tsukuba Challenge 2014, Tsukuba, Japan}}
+\cvitem{Work}{Software system consultant of Peking University Team}
+\cvitem{Note}{Robot's software system is based on RobotSDK 3.0\newline}
+
+\cvitem{2013.08--2014.09}{\textbf{RobotSDK Development}}
+\cvitem{Work}{Creator and development group leader}
+\cvitem{Copyright}{SN: 2014SR160286}
+\cvitem{Note}{Provides a top-down modular framework for software system development\newline}
+
+\cvitem{2013.10--Canceled}{\textbf{National Robots Competition 2014, Harbin, China}}
+\cvitem{Work}{Software system development}
+\cvitem{Note}{Robot's software system is based on RobotSDK 2.2\newline}
+
+\cvitem{2013.06--2014.08}{\textbf{On-line Sensor Calibration Using Road Structural Features}}
+\cvitem{Work}{Calibration method design}
+\cvitem{Note}{PKU-TCRDL Joint Project\newline}
+
+\cvitem{2013.05--2013.11}{\textbf{Tsukuba Challenge 2013, Tsukuba, Japan}}
+\cvitem{Work}{Software system development}
+\cvitem{Note}{Robot's software system is based on RobotSDK 1.0\newline}
+
+\cvitem{2011.09--2011.10}{\textbf{National Intelligent Vehicle Future Challenge, Inner Mongolia, China}}
+\cvitem{Work}{Referee\newline}
+
+\cvitem{2010.08--2011.04}{\textbf{Interactive Object Extraction with Multi-modal Urban Sensing Data}}
+\cvitem{Work}{Software development for object extraction from camera and LiDAR data}
+\cvitem{Note}{Peking University and Navinfo Co. Ltd. Joint Project\newline}
+
+\section{\textbf{Awards}}
+
+\cvitem{2014.06}{Excellent Prize for Master Thesis, Peking University\newline}
+\cvitem{2013.11}{Guanghua Scholarship of Peking University\newline}
+\cvitem{2011.06}{Excellent Prize for Bachelor Thesis, Peking University\newline}
+\cvitem{2009.11}{Merit Student of Peking University\newline}
+\cvitem{2006.08}{Gold medal in National Biology Olympic Competition.\newline}
+
+\section{\textbf{Experience}}
+\cvitem{April 2015}{\textbf{Introduction to ROS (Graduate Course) [90 min]}}
+\cvitem{Work}{Teaching, Nagoya University\newline}
+
+\cvitem{Fall 2012}{\textbf{Introduction to Intelligent Robots (Undergraduate Course)}}
+\cvitem{Work}{Teaching Assistant, Peking University\newline}
+
+\section{\textbf{Skills}}
+
+\cvitemwithcomment{Language}{Mandarin}{Native proficiency}
+\cvitemwithcomment{~}{English}{Professional working proficiency}
+\cvitemwithcomment{~}{Français}{Limited working proficiency}
+\cvitemwithcomment{~}{Japanese}{Beginner}
+\cvitem{~}{~}
+
+\cvitem{Programming}{C/C++, Java, Qt, Matlab, SQL, Latex}
+\cvitem{~}{OpenGL, OpenCV, OpenNI, PCL, Eigen, CUDA, PhysX, NLOPT...}
+\cvitem{~}{Linux, ROS, Windows\newline}
+
+\cvitem{Sensors}{LiDAR: SICK, Hokuyo, Velodyne, IBEO}
+\cvitem{~}{Camera: Point Grey, Ladybug, Bumblebee}
+\cvitem{~}{GPS/IMU, encoder, CANBUS}
+
+\section{\textbf{Hobbies}}
+
+\cvitem{~}{Piano, Classical music, Swimming, Basketball, Football, Chess...}
+
+\end{document}
+
+
+%% end of file `template.tex'.
